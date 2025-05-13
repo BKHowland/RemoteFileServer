@@ -7,15 +7,15 @@ Simple Web Server (SWS) on RDP (SoR)
 
 SoR specifications:
 SoR packet format
-  RDP-COMMAND(S)
-  RDP-Header: Value
-  …
-  RDP-Header: Value
-  HTTP-COMMAND
-  HTTP-Header: Value
-  …
-  HTTP-Header: Value
-  HTTP-PAYLOAD
+RDP-COMMAND(S)
+RDP-Header: Value
+…
+RDP-Header: Value
+HTTP-COMMAND
+HTTP-Header: Value
+…
+HTTP-Header: Value
+HTTP-PAYLOAD
 
 How to run SoR server:
 python3 sor-server.py server_ip_address server_udp_port_number server_buffer_size server_payload_length
