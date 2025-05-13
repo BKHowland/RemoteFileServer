@@ -17,10 +17,10 @@ SoR packet format
   HTTP-Header: Value
   HTTP-PAYLOAD
 
-How to run SoR server
-  python3 sor-server.py server_ip_address server_udp_port_number server_buffer_size server_payload_length
+How to run SoR server:
+python3 sor-server.py server_ip_address server_udp_port_number server_buffer_size server_payload_length
 
-How to run SoR client
-  python3 sor-client.py server_ip_address server_udp_port_number client_buffer_size client_payload_length
+How to run SoR client:
+python3 sor-client.py server_ip_address server_udp_port_number client_buffer_size client_payload_length
   read_file_name write_file_name [read_file_name write_file_name]*
 
